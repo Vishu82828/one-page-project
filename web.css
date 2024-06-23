@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #f9f9f9;
+    color: #333;
+}
+.navbar0{
+    background-color: rgb(99, 99, 55);
+    text-align: right;
+}
+.navbar0 label a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+.navbar1{
+    background-color: aliceblue;
+    text-align: right;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.logo{
+    color: rgb(11, 11, 10);
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: left;
+    display: flex;
+}
+.icon label {
+    align-items: center;
+    font-size: 30px;
+}
+.navbar{
+    background-color: #2a3f3f;
+    height: 20px;
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(252, 248, 244);
+    margin-right: 105px;
+}
+.video{
+    margin-top: 10vh;
+    width: 950px;
+    margin-left: 150px;
+    text-align: left;
+    font-size: 25px;
+    font-family: Amasis MT Pro;
+}
+.shop{
+    display: grid;
+    width: 80%;
+    height: 500px;
+    margin-left: 140px;
+}
+.shop_text{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.shop_img{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+ .i1{
+    background-image:url("img1.jpg") ;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.i2{
+    background-image:url("img2.jpg") ;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.i3{
+    background-image:url("img3.jpg") ;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.shop2{
+    background-color: #e8ddb9;
+    padding: 20px;
+    height: 342px;
+    width: 940px;
+    margin-left: 14px;
+    margin-top: 38px;
+    line-height: normal;
+}
+.shop_text2{
+    height: 30px;
+    align-items: center;
+    color: #222;
+    font-size: 28px;
+}
+.shop2_img{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+.sh1{
+    background-image: url(24-05-24-men-s-brands-1-min-data.jpg);
+    background-size: cover;
+    height: 210px;
+    width: 168px;
+}
+.sh2{
+    background-image: url(24-05-24-men-s-brands-2-min-data.jpg);
+    background-size: cover;
+    height: 210px;
+    width: 168px;
+}
+.sh3{
+    background-image: url(24-05-24-men-s-brands-3-min-data\ \(1\).jpg);
+    background-size: cover;
+    height: 210px;
+    width: 168px;
+}
+.sh4{
+    background-image: url(24-05-24-men-s-brands-4-min-data.jpg);
+    background-size: cover;
+    height: 210px;
+    width: 168px;
+}
+/* .sh5{
+    background-image: url(24-05-24-men-s-brands-5-min-data.jpg);
+    background-size: cover;
+    height: 210px;
+    width: 168px;
+} */
+.l1{
+   /* border:0.5px  #2a3f3f solid; */
+   margin: 80px;
+}
+.fhead{
+    height: 21px;
+    text-align: center;
+}
+.icon2{
+    padding-top: 8px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(132, 183, 166);
+}
+/* #check:checked~.navbar ul{
+    display: block;
+} */
+/* @media screen and (max-width:500px) {
+    .navbar label{
+         display: block;
+    }
+    .navbar a{
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        display: none;
+        text-align: right;
+        right: 50px;
+    }
+    .icon label{
+        display: block;
+    }
+} */
